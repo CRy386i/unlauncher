@@ -176,6 +176,7 @@ class MainActivity : AppCompatActivity(),
             }
         }
 
+        // FIXME this problem may be form "synthetic"
         override fun onFling(
             e1: MotionEvent,
             e2: MotionEvent,

@@ -10,7 +10,8 @@ import androidx.fragment.app.DialogFragment
 import com.sduduzog.slimlauncher.R
 import com.sduduzog.slimlauncher.models.HomeApp
 import com.sduduzog.slimlauncher.models.CustomiseAppsViewModel
-import kotlinx.android.synthetic.main.customise_apps_fragment.*
+// FIXME well, android.extension is deprecated.
+// import kotlinx.android.synthetic.main.customise_apps_fragment.*
 
 class RenameAppDialog : DialogFragment() {
 
